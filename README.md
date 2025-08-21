@@ -1,54 +1,30 @@
 hi
 
-este github funciona como portfólio técnico e registro de experimentos.
-prioridade: reprodutibilidade. problema → modelo → métrica → decisão.
+my github doubles as a working portfolio — concise repos, code + plots, reproducible setups. i prefer shipping experiments over writing long docs.
 
 about
 
-engenharia mecânica (ufrj). foco em sistemas dinâmicos e complexos aplicados a controle,
-phm e iiot/cps. interesse central: decisão sob incerteza com restrições reais
-(sensores imperfeitos, atrito/folga/atrasos, limites de segurança).
+undergrad @ UFRJ Mechanical Engineering. my focus is reliability & automation for complex systems: PHM/RUL, control (LQR/MPC/observers), flow assurance basics, and IIoT telemetry (Node-RED → InfluxDB → Grafana). i study and prototype with an eye on high-impact industrial problems (oil & gas, mining, energy, advanced manufacturing).
 
-eixos de trabalho
-– dinâmica não linear: estabilidade (lyapunov/lasalle), bifurcações, caos,
-  seções de poincaré, invariantes.
-– controle: pid/lqr/mpc (econômico e robusto), anti-windup, tube-mpc,
-  chance constraints, integração rto↔mpc.
-– observabilidade: luenberger, kalman (kf/ekf/ukf), mhe; dados com ruído/atraso.
-– phm/rul: degradação física, soft sensors, sobrevivência bayes, política ótima
-  de manutenção com custo explícito.
-– redes: laplaciano, centralidades, percolação/cascatas; controle distribuído.
-– iiot/cps: instrumentação, mqtt/opc ua, sincronização temporal (ntp/ptp),
-  qualidade de dado (latência/jitter/outliers), logs e sli/slo.
-– atuadores reais: atrito, folga, histerese, atraso; funções-barreira (cbf) para safety.
+tooling (open-source): python (numpy/pandas/scipy/scikit-learn), python-control, filterpy, networkx, matplotlib/plotly · node-red, influxdb, grafana, docker · basic CAD (onshape/solidworks – learning parts/assemblies) · markdown/jupyter
 
-critério de aceite (para tudo aqui)
-1) definição do problema e hipóteses
-2) dados/simulação e condições de teste
-3) métrica clara (erro, custo, tempo, robustez)
-4) limite conhecido do método
+what i'm building 
 
-repos âncora (sempre em evolução)
-– dyn-systems-notes: notas/experimentos de dinâmica (lyapunov, bifurcações, caos, redes).
-– kalman-observers: luenberger, kf/ekf/ukf/mhe com atraso/ruído e comparação por rmse/latência.
-– mpc-robust-economic: mpc nominal/robusto, custo econômico, restrições e estudos de sensibilidade.
-– phm-rul-bayes: degradação, estimativa de saúde, rul bayesiano e decisão de manutenção.
-– iiot-telemetry-sync: telemetria com timestamp correto, ptp/ntp e checagem de qualidade de dados.
-– cps-actuators-friction-backlash: modelos de atrito/folga/atraso e compensações simples.
-– networks-cascades-control: simulações de cascatas e intervenções mínimas em redes.
-– vapt vupt: protótipos 0→1, jigs e relatórios curtos de campo.
+- flow-assurance-lite — synthetic T-P maps for wax/hydrate risk zones + minimal FMEA/Bow-Tie (3 lines) and a dashboard skeleton (Node-RED → Influx → Grafana).  
+- predictive-maintenance-starter — feature extraction for machine health + simple RUL baseline and email alerts; no fancy black box, just clear signals and thresholds.  
+- mpc-mass-spring — state-space model, LQR and a first MPC sketch with constraints.  
+- complex-systems-notes — short notebooks on maps/chaos (lyapunov), kuramoto sync on graphs, percolation/cascades, and stochastic basics.
 
-<!--
-**anderkolm/anderkolm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+interests 
 
-Here are some ideas to get you started:
+reliability/PHM (RCM, FMEA/FMECA, Bow-Tie, RAM, LCC) · control/estimation (pid, lqr, mpc, kalman/luenberger) · process systems engineering (dynamic balances, regime changes, bifurcations) · iiot/ot (instrumentation, telemetry, time sync, data quality) · networks & complexity (structure, cascades, resilience) · safety methods (hazid/hazop/lopa – fundamentals)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+currently
+
+- assembling open-source demos for an application to NIDF/UFRJ (multiphase/flow assurance context).  
+- looking for lab work (reliability, control, data-driven process systems) and collaborations on small, well-scoped problems.  
+- longer-term: bring reliability + control + complexity into real industrial telemetry pipelines.
+
+reading (signals over noise)
+
+kolmogorov, lyapunov, poincaré, prigogine, haken; åström & murray (feedback systems), bertsekas (optimization), ogata (state-space), box (all models are wrong…), jaynes (probability), murray-spiegel (theory of stats). philosophy for method: wittgenstein/heidegger (clarity, constraints of language) — kept practical.
