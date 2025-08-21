@@ -37,7 +37,7 @@ repos âncora (sempre em evolução)
 – iiot-telemetry-sync: telemetria com timestamp correto, ptp/ntp e checagem de qualidade de dados.
 – cps-actuators-friction-backlash: modelos de atrito/folga/atraso e compensações simples.
 – networks-cascades-control: simulações de cascatas e intervenções mínimas em redes.
-– vapt vupt: protótipos 0→1, jigs e relatórios curtos de campo.## Hi there 👋
+– vapt vupt: protótipos 0→1, jigs e relatórios curtos de campo.
 
 <!--
 **anderkolm/anderkolm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
