@@ -27,7 +27,6 @@ critério de aceite (para tudo aqui)
 2) dados/simulação e condições de teste
 3) métrica clara (erro, custo, tempo, robustez)
 4) limite conhecido do método
-5) próximo passo mensurável em 1–2 semanas
 
 repos âncora (sempre em evolução)
 – dyn-systems-notes: notas/experimentos de dinâmica (lyapunov, bifurcações, caos, redes).
